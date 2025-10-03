@@ -1,0 +1,21 @@
+# 파이썬 캐시/환경 무시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv
+venv/
+
+# Jupyter 노트북 체크포인트 무시
+.ipynb_checkpoints/
+
+# OS/에디터 파일 무시
+.DS_Store
+Thumbs.db
+
+# 기타
+*.log
+
+# chroma_db 벡터DB 데이터/인덱스 무시
+chroma_db/
+
